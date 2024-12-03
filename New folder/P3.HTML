@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements</title>
+    <style>
+        /* Basic styles for block and inline elements */
+        .container {
+            padding: 20px;
+        }
+        .block {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+        }
+        .inline {
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Understanding Block and Inline Elements</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="container">
+        <h4 class="block">Block-Level Elements</h4>
+        <p class="block">A block-level element starts on a new line and takes up the full width available. Examples include:</p>
+        <ul class="block">
+            <li>Paragraphs </li>
+            <li>Headings </li>
+            <li>Divisions</li>
+        </ul>
+
+        <h2 class="block">Inline Elements</h2>
+        <p class="block">An inline element does not start on a new line and only takes up as much width as necessary. Examples include:</p>
+        <p class="block">
+            <span class="inline">This text is inside a span element</span>, 
+            and <strong class="inline">this is bold text</strong>. 
+            Here is <a href="#" class="inline">a link</a>.
+        </p>
+
+        <h2 class="block">Mixed Example</h2>
+        <p class="block">
+            This is a paragraph (<code>block-level</code>) containing 
+            <span class="inline">inline elements</span>, like this <strong class="inline">bold text</strong> 
+            and <em class="inline">italicized text</em>. 
+            You can also add <a href="#" class="inline">hyperlinks</a>.
+        </p>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
